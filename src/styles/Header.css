@@ -1,0 +1,15 @@
+.header {
+    width: 94vw; 
+    display: flex;
+    background-image: url("/img/fondo.jpeg");
+    padding: 10px; 
+    text-align: center; 
+    color: forestgreen;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 25%;
+    }
