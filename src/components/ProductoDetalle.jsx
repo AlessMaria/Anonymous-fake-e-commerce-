@@ -55,7 +55,7 @@ function ProductoDetalle({ funcionCarrito }) {
       <div className="detalle-info">
         <h2>{producto.name}</h2>
         <p>{producto.description}</p>
-        <p>{producto.price} $</p>
+        <p>{producto.price} U$</p>
         <div className="detalle-contador">
           <button onClick={restarContador}>-</button>
           <span>{cantidad}</span>

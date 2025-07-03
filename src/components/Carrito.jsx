@@ -15,13 +15,13 @@ export default function Carrito({productosCarrito, funcionBorrar, usuarioLogeado
     }
 
     console.log("Total: " + total)
-
+/*
     if(!usuarioLogeado){
         return(
             <Navigate to="/login" replace/>
         )
     }
-
+*/
     return(
         <div className="carrito-conteiner">
             <div className="carrito-titulos" >
@@ -40,7 +40,7 @@ export default function Carrito({productosCarrito, funcionBorrar, usuarioLogeado
                 />
             ))
             : <p>Carrito vacio</p>}
-            {total > 0 ? <span>Total a pagar: {total.toFixed(2)} $</span>: <></>}
+            {total > 0 ? <span>Total a pagar: {total.toFixed(2)} U$</span>: <></>}
         </div>
     )
 }

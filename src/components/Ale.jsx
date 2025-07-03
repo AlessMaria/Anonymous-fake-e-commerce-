@@ -15,7 +15,7 @@ function ProductosContainer1({functionCarrito} ){
     //const [total, setTotal] = useState(0)
 
     {useEffect(() =>{
-        fetch('https://68100dc827f2fdac24102255.mockapi.io/productos')
+        fetch('https://682f77e9f504aa3c70f427f0.mockapi.io/productos')
         .then((res) => res.json())
             .then((datos) => {
                 console.log(datos)
@@ -38,11 +38,11 @@ function ProductosContainer1({functionCarrito} ){
         return(
 
             <div className="productos-container">
-                 {productos.map((producto) => (
-                     <Card
+                {productos.map((producto) => (
+                    <Card
                         producto={producto}
                     />
-                 ))}
+                ))}
             </div>
 
     // <div>

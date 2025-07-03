@@ -45,7 +45,7 @@ function App() {
   }
 
   function manejarAdmin() {
-    setAdminLogeado(!adminLogeado)
+    setAdminLogeado(!adminLogeado) //Se pone el ! (negación) asi si esta false, pasa a true y al revés. Así se loguea y desloguea.
   }
 
   function manejarUser(){
